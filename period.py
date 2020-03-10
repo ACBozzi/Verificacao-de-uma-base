@@ -1,3 +1,5 @@
+#rodar com python3
+
 from datetime import datetime
 from itertools import dropwhile , takewhile
 
@@ -17,4 +19,3 @@ ate = datetime ( 2018 , 5 , 1 )	#data menor
 for post in takewhile ( lambda p : p . date > ate , dropwhile ( lambda p : p . date > desde , posts )):
     print ( post . date )
     L . download_post ( post , '#deolhonoscorais' )
-
