@@ -1,0 +1,1 @@
+instaloader "#deolhonoscorais" --no-metadata-json --no-captions
