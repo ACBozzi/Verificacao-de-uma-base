@@ -1,8 +1,9 @@
 
 from selenium import webdriver #abrir navegador
 from selenium.webdriver.common.keys import Keys #simula teclas do teclado
-import time
+import time immport
 import random
+import os
 
 
 class InstagramBot:
@@ -74,8 +75,8 @@ class InstagramBot:
 			try:
 				#lista de comentarios
 				comentarios = ["teste", "comentario", "nota 10"]
-
-				driver.find_element_by_class_name("Ypffh").click()
+				time.sleep(3)
+				driver.find_element_by_xpath("//button[contains(text()), 'Publicar')]").click()
 				campo_comentario = driver.find_element_by_class_name("Ypffh")
 				time.sleep(random.randint(2,5))	#espera de 2 a 5 seg entre uma ação e outra
 				self.digite_como_uma_pessoa(random.choice(comentarios),campo_comentario)
