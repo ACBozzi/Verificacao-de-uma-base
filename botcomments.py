@@ -1,4 +1,4 @@
-
+#InstaPy cancelou suporte ao chrome, precisa ser firefox
 from selenium import webdriver #abrir navegador
 from selenium.webdriver.common.keys import Keys #simula teclas do teclado
 import time immport
@@ -43,7 +43,7 @@ class InstagramBot:
 	def digite_como_uma_pessoa(frase, local):
 		for letra in frase:
 			local.send_keys(letra)
-			time.sleep(random.randint(1,5)/30)	#velocidade aleatória
+			time.sleep(random.randint(1,5)/30)	#velocidade aleatória para digitar
 
 
 	#função que pesquisa a #
@@ -69,7 +69,7 @@ class InstagramBot:
 		#abrir as fotos 
 		for pic_hrefs in pic_hrefs:
 			driver.get(pic_hrefs)
-			driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')
+			driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')	#carrega a tela dando 3 scroll pra baixo
 
 			#clicar no campo comentario
 			try:
