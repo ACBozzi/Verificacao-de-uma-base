@@ -14,7 +14,7 @@ for line in lines:
 ##LISTA DAS GEOLOCALIZAÇÕES
 listaLocal = []
 
-home = '/home/carol/Área de Trabalho/IC/deolhonoscorais'
+home = '/home/carol/Área de Trabalho/IC/coraishipes'
 
 if os.path.isdir(home): #se existe
 		os.chdir(home) #então abre
