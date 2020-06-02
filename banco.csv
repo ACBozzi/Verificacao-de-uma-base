@@ -2,8 +2,10 @@ Estado,Cidade,Localidade,Tag de praias
 alagoas,maragogi,galés de maragogi,"#galésdemaragogi
 #galesdemaragogi 
 #maragogi
+#euamoalagoas
 #alagoas"
 alagoas,maragogi,praia de antunes,"#praiadeantunes
+#euamoalagoas
 #maragogi
 #alagoas"
 alagoas,maragogi,praia de barra grande,"#praiadebarragrande
@@ -12,10 +14,15 @@ alagoas,maragogi,praia de barra grande,"#praiadebarragrande
 #alagoas"
 alagoas,maragogi,praia de burgalhau,"#praiadeburgalhau
 #maragogi
+#euamoalagoas
+#alagoas"
+alagoas,maragogi,piscinas naturais,"#piscinasnaturaismaragogi
+#maragogi
+#euamoalagoas
 #alagoas"
 alagoas,maragogi,praia de peroba,"#praiadeperoba
 #praiadeperobaalagoas
-#praiadeperóba
+#praiadeperéba
 #praiadeperobaal
 #praiadeperobamaragogi
 #praiadeperóbamaragogi
@@ -33,8 +40,7 @@ alagoas,maceió,praia de ponta verde,"#praiadepontaverde
 #maceioalagoas
 #maceió
 #maceióalagoas
-#maceioblogs
-"
+#maceioblogs"
 alagoas,maceió,praia da jatiuca,"#praiadajatiuca
 #praiadajatiuca
 #praiadajatiucamaceioal
@@ -44,7 +50,7 @@ alagoas,maceió,praia da jatiuca,"#praiadajatiuca
 #maceió
 #maceióalagoas
 #maceioblogs"
-alagoas,maceió,pajuçara (piscina do amor),"#pajuçara
+alagoas,maceió,pajuçara,"#pajuçara
 #pajucara
 #maceió
 #maceioalagoas
@@ -60,9 +66,8 @@ alagoas,são miguel dos milagres,praia do patacho,"#praiadopatacho
 #praiadopatachoalagoas
 #saomigueldosmilagres
 #alagoas
-#sãomigueldosmilagres
-"
-alagoas,piaçabuçu,praia do pontal do peba,"#praiadopontaldopeba
+#sãomigueldosmilagres"
+alagoas,piaçabuçu,pontal do peba,"#praiadopontaldopeba
 #piaçabuçu
 #alagoas
 #piacabucu
@@ -77,10 +82,13 @@ alagoas,porto de pedras,praia de lages,"#praiadelages
 #alagoas"
 alagoas,japaratinga,apa costa dos corais,"#apacostadoscorais
 #japaratinga
+#costadoscoraisalagoas
+#costadoscoraisalagoas
 #alagoas"
 alagoas,barra de santo antônio,apa costa dos corais,"#apacostadoscorais
 #barradesantoantonio
 #barradesantoantônio
+#costadoscoraisalagoas
 #barradesantoantôniomaceió
 #alagoas"
 alagoas,paripueira,apa costa dos corais,"#apacostadoscorais
@@ -91,18 +99,21 @@ alagoas,marechal deodoro,praia do francês,"#marechaldeodoro
 #praiadofrances
 #praiadofrancês
 #praiadofrancesalagoas
-#praiadofrânces"
-alagoas,feliz deserto,,"#felizdeserto 
+#praiadofrênces"
+alagoas,feliz deserto,vaziu,"#felizdeserto 
 #alagoas"
-alagoas,penedo,,"#penedo
+alagoas,penedo,vaziu,"#penedo
 #alagoas
 #penedoalagoas"
 bahia,abrolhos,ilha redonda,"#ilharedonda
 #abrolhos
+#abrolhosparquenacional
+#abrolhosislands
 #bahia"
 bahia,abrolhos,parcel das paredes,"#parceldasparedes
 #abrolhos
-#bahia"
+#bahia
+#abrolhosparquenacional"
 bahia,salvador,quebra mar do porto de salvador,"#bahia
 #salvador
 #salbadorbahiabrasil"
@@ -112,39 +123,34 @@ bahia,salvador,praia de ondina,"#praiadeondinha
 #salvadorbahia
 #bahia
 #salvador
-#salvadorbahiabrasil
-"
+#salvadorbahiabrasil"
 bahia,salvador,praia do cristo,"#praiadocristo  
 #salvador
 #salvadorba
 #salvadorbahia
 #bahia
 #salvador
-#salvadorbahiabrasil
-"
+#salvadorbahiabrasil"
 bahia,salvador,farol da barra,"#faroldabarra
 #bahia
 #salvador"
 bahia,salvador,praia da pituba,"#praiadapituba
 #bahia
-#salvador
-"
+#salvador"
 bahia,salvador,praia de amaralina,"#praiadeamaralina
 #salvador
 #salvadorba
 #salvadorbahia
 #bahia
 #salvador
-#salvadorbahiabrasil
-"
+#salvadorbahiabrasil"
 bahia,santa cruz cabrália,praia de coroa vermelha,"#praiadecoroavermelha
 #bahia
 #santacruzcabralia
 #santacruzcabrália
 #santacruzcabraliabahia
 #santacruzcabraliaba
-#santacruzcabráliaba
-"
+#santacruzcabráliaba"
 bahia,mata de são joão,praia do forte,"#praia do forte
 #matadesaojoao
 #bahia
@@ -153,14 +159,14 @@ bahia,mata de são joão,praia do forte,"#praia do forte
 #matadesãojoao
 #matadesaojoaoba
 #salvadormeuamor"
-bahia,arraial d'ajuda,praia de mucugê,"#praiademucugê
+bahia,arraial d'ajuda,praia de mucugé,"#praiademucugé
 #praiademucuge"
 bahia,cairu,ilha de boipeba,"#ilhadeboipeba
 #boipeba
 #ilhadeboipebabahia
 #cairu
 #bahia"
-bahia,cairu,morro de são paulo ,"#cairu
+bahia,cairu,morro de sẽo paulo ,"#cairu
 #bahia
 #morrodesaopaulo"
 bahia,prado,praia de cumuruxatiba,"#praiadecumuruxatiba
@@ -170,7 +176,7 @@ bahia,bahia de todos os santos,ilha de itaparica,"#ilhadeitaparica
 #baiadetodosossantos
 #baíadetodosossantos
 #bahia"
-bahia,,baía de todos os santos,"#baiadetodosossantos
+bahia,vaziu,baía de todos os santos,"#baiadetodosossantos
 #baíadetodosossantos
 #bahia"
 bahia,porto seguro,praia da ponta grande,"#praiadapontagrande
@@ -181,10 +187,12 @@ bahia,porto seguro,parque marinho recife de fora,"#parquemarinhorecifedefora
 #bahia"
 bahia,maraú,taipu de fora,"#peninsulademarau
 #taipudefora
-#maraú
 #marau
-#bahia"
-bahia,caravelas, ,"#caravelas
+#marau
+#barragrande
+#bahia
+#peninsulademarau"
+bahia,caravelas,vaziu,"#caravelas
 #caravelasbahia
 #bahia"
 bahia,alcobaça,recifes localizados entre alcobaça e nova viçosa,"#alcobaça
@@ -196,9 +204,10 @@ bahia,nova viçosa,recifes localizados entre alcobaça e nova viçosa,"#novaviç
 #portosegurobahia
 #novavicosa
 #bahia"
-ceará,são gonçalo do amarante,pecém,"          #pecem
+ceará,são gonçalo do amarante,pecém,"#pecem
 #ceara
 #ceará
+#mergulhonoceara
 #pecém
 #sãogonçalodoamarante
 #saogoncalodoamarante
@@ -207,15 +216,14 @@ ceará,fortaleza,praia da barra do ceará,"#praiadabarradoceara
 #praiadabarradoceará
 #fortaleza
 #ceara
+#mergulhonoceara
 #fortalezaceara
-#fortalezaordinaria
-"
+#fortalezaordinaria"
 espírito santo,guarapari,ilha escalvada,"#ilhaescalvada
 #ilhaescalvadaguarapari
 #guarapari
 #guaraparibeach
-#capixaba
-"
+#capixaba"
 espírito santo,guarapari,praia de setiba,"#praiadesetiba
 #praiadesetibaes
 #praiadesetibaguarapari
@@ -224,24 +232,23 @@ espírito santo,guarapari,praia de setiba,"#praiadesetiba
 #praiadesetibá
 #guarapari
 #guaraparibeach
-#capixaba
-"
+#capixaba"
 espírito santo,vitória,ilha da trindade,"#ilhadatrindade
 #ilhadatrindadebrasil
 #vitoria
 #espiritosanto
 #capixaba"
-espírito santo,anchieta,,"#anchieta
+espírito santo,anchieta,vaziu,"#anchieta
 #es"
-goiás,aparecida de goiânia,,"#aparecidadegoiania
+goiás,aparecida de goiânia,vaziu,"#aparecidadegoiania
 #goias
 #aparecidadegoiânia
 #aparecidadegôiânia"
-goiás,goiânia,,"#goiania
+goiás,goiânia,vaziu,"#goiania
 #goiânia
 #goiás
-#goiânia"
-goiás,porangatu,,"#porangatu
+#goiãnia"
+goiás,porangatu,vaziu,"#porangatu
 #porangatugoias
 #goiás
 #goias"
@@ -255,7 +262,7 @@ paraíba,joão pessoa,praia do bessa,"#praiadobessa
 #joãopessoa
 #paraíba 
 #jampa"
-paraíba,João pessoa,caribessa,"#caribessa
+paraíba,joão pessoa,caribessa,"#caribessa
 #caribessaoficial
 #caribessabeach
 #caribessajp
@@ -277,7 +284,7 @@ paraíba,joão pessoa,praia da ponta do seixas,"#joaopessoaparaiba
 #joãopessoa
 #paraíba 
 #jampa"
-paraíba,baía da traição,,"#baiadatraicao
+paraíba,baía da traição,vaziu,"#baiadatraicao
 #baiadatraição
 #baiadatraiçao
 #baiadatraicaopb
@@ -287,8 +294,7 @@ paraíba,baía da traição,,"#baiadatraicao
 #baiadatraiçãopb
 #baiadatraíção
 #baíadatraíçao
-#baiadatraicão
-"
+#baiadatraicão"
 pernambuco,fernando de noronha,cabeço da sapata,"#cabeçodasapata
 #cabecodasapata
 #fernandodenoronha
@@ -305,7 +311,7 @@ pernambuco,fernando de noronha,caverna da sapata,"#cavernadasapata
 #neuronha
 #noronhando
 #pernambuco"
-pernambuco,fernando de noronha,baía dos porcos,"#baiadosporcos
+pernambuco,fernando de noronha,baia dos porcos,"#baiadosporcos
 #baíadosporcos
 #baíadosporcosnoronha
 #fernandodenoronha
@@ -315,7 +321,6 @@ pernambuco,fernando de noronha,baía dos porcos,"#baiadosporcos
 #noronhando
 #pernambuco"
 pernambuco,fernando de noronha,praia do atalaia,"#praiadoatalaia
-#marajó
 #praiasdepernambuco
 #pedrabonita
 #praiasdonordeste
@@ -374,7 +379,8 @@ pernambuco,tamandaré,apa costa dos corais,"#apacostadoscorais
 #tamandare
 #tamandaré
 #pernanbuco
-#pernambuco"
+#pernambuco
+#tamandarebeach"
 pernambuco,porto de galinhas ,pontal de maracaípe,"#pontaldemaracaipe
 #pontaldemaracaípe
 #portodegalinhas
@@ -386,9 +392,8 @@ pernambuco,ipojuca,praia de muro alto,"#praiademuroalto
 #ipojuca
 #pernanbuco
 #pernambuco
-#ipojucape
-"
-pernambuco,,arquipélago de são pedro e são paulo,"#arquipélagodesãopedroesãopaulo
+#ipojucape"
+pernambuco,vaziu,arquipélago de são pedro e são paulo,"#arquipélagodesãopedroesãopaulo
 #arquipelagodesaopedroesaopaulo
 #pernanbuco
 #pernambuco"
@@ -398,72 +403,68 @@ pernambuco,cabo de santo agostinho,praia do paiva,"#praiadopaiva
 #cabodesantoagostinho
 #pernambuco
 #pernanbuco
-#cabodesantoagostinhope
-"
-pernambuco,são josé da coroa grande,,"#saojosedacoroagrande
+#cabodesantoagostinhope"
+pernambuco,são josé da coroa grande,vaziu,"#saojosedacoroagrande
 #sãojosédacoroagrande
-#sãojosedacoroagrande
+#sojosedacoroagrande
 #saojosedacoroagrandepe
 #saojosédacoroagrande
-#sãojosédacoroagrandepe
-"
+#sãojosédacoroagrandepe"
 pernambuco,recife,naufrágio phoenix,"#naufragiophoenix
 #recife
 #recifepe
 #pernanbuco
 #pernambuco"
-pernambuco,paulista,,"#paulistape
+pernambuco,paulista,vaziu,"#paulistape
 #pernanbuco
 #pernambuco"
 rio de janeiro,arraial do cabo,saco do anequim,"#sacodoanequim
 #arraialdocabo
 #arraialdocaborj
-#arraialdocabooficial
-"
-rio de janeiro,arraial do cabo,prainhas do pontal do atalaia,"#prainhasdopontaldoatalaia
-#arraialdocabo
+#arraialdocabooficial 
+#araialdocabo"
+rio de janeiro,arraial do cabo,prainhas do pontal do atalaia,"#arraialdocabo
 #arraialdocaborj
 #arraialdocabooficial
-"
+#araialdocabo"
 rio de janeiro,arraial do cabo,praia grande,"#arraialdocabo
 #arraialdocaborj
 #arraialdocabooficial
-"
+#araialdocabo"
 rio de janeiro,arraial do cabo,praia da graçainha,"#praiadagraçainha
 #praiadagracainha
 #praiadagraçaínha
 #arraialdocabo
 #arraialdocaborj
 #arraialdocabooficial
-"
+#araialdocabo"
 rio de janeiro,arraial do cabo,praia do forno,"#praiadofornobuzios
 #arraialdocabo
 #arraialdocaborj
 #arraialdocabooficial
-"
+#araialdocabo"
 rio de janeiro,búzios,ilha da âncora,"#ilhadaancora
 #ilhadaâncora
 #búzios
 #buzios
-#buziosbeach
-"
+#buziosbeach"
 rio de janeiro,búzios,ponta do criminoso,"#pontadocriminoso
 #búzios
 #buzios
-#buziosbeach
-"
+#buziosbeach"
 rio de janeiro,angra dos reis,baía de ilha grande,"#baíadeilhagrande
 #baiadeilhagrande
 #angradosreis
+#ilhagrande
 #angra
 #errejota
-#rj40graus
-"
+#rj40graus"
 rio de janeiro,paraty,ilha dos meros,"#ilhadosmeros
 #errejota
 #paratyrj
 #paratybrasil
 #paratyzando
+#paraty
 #rj"
 rio de janeiro,rio de janeiro,sepetiba,"#sepetiba
 #sepetibarj
@@ -479,14 +480,12 @@ rio de janeiro,rio de janeiro,armação de búzios,"#armaçãodosbúzios
 #armaçãodosbúziosrj
 #riodejaneiro
 #rj"
-rio de janeiro,cabo frio,,"#cabofrio
+rio de janeiro,cabo frio,vaziu,"#cabofrio
 #cabofriorj
 #riodejaneirogram
-#riomais
-"
-rio de janeiro,niterói,,"#niterói
-#niteroi
-"
+#riomais"
+rio de janeiro,niterói,vaziu,"#niterói
+#niteroi"
 rio grande do norte,natal,praia de santa rita,"#praiadesantarita
 #praiadesantaritarn
 #natalrn
@@ -494,8 +493,7 @@ rio grande do norte,natal,praia de santa rita,"#praiadesantarita
 #natalrnbrasil
 #natalrnbrazil
 #natalrnbr
-#natalrnbrasil2
-"
+#natalrnbrasil2"
 rio grande do norte,natal,batente das agulhas,"#batentedasagulhas
 #batentedasagulhasrn
 #natalrn
@@ -503,14 +501,11 @@ rio grande do norte,natal,batente das agulhas,"#batentedasagulhas
 #natalrnbrasil
 #natalrnbrazil
 #natalrnbr
-#natalrnbrasil2
-"
-rio grande do norte,,cabeço do silva,"#cabecodosilva
-"
-rio grande do norte,maracajaú,parrachos de maracajaú,"#parrachosdemaracajau
+#natalrnbrasil2"
+rio grande do norte,vaziu,cabeço do silva,#cabecodosilva
+rio grande do norte,maracajau,parrachos de maracajau,"#parrachosdemaracajau
 #parrachosdemaracajaú
 #parrachosdemaracajaurn
-#maracajaú
 #maracajau
 #maracajaudiver
 #maracajaúrn
@@ -519,45 +514,41 @@ rio grande do norte,maracajaú,parrachos de maracajaú,"#parrachosdemaracajau
 #maracajauadventure
 #maracajaumergulho
 #maracajaúadventure
-#maracajaù
-"
-rio grande do norte,rio do fogo,parrachos de rio do fogo,"#parrachosderiodofogo
+#maracajaú"
+rio grande do norte,rio do fogo,parrachos rio do fogo,"#parrachosderiodofogo
 #riodofogobeach
 #riodofogo_rn
-"
+#parrachos
+#riodofogo
+#visitiriodofogo.oficial
+#riodofogo 
+#rn"
 rio grande do norte,nísia floresta,praia de barreta,"#praiadebarreta
 #praiadebarretarn
 #nisiafloresta
 #nísiafloresta
-#nisiaflorestarn
-"
+#nisiaflorestarn"
 rio grande do norte,nísia floresta,praia de pirambúzios,"#praiadepirambúzios
 #praiadepirambuzios
 #nisiafloresta
 #nísiafloresta
-#nisiaflorestarn
-"
+#nisiaflorestarn"
 rio grande do norte,nísia floresta,praia de búzios,"#praiadebuzios
 #praiadebúzios
 #praiadebuziosnatal
 #nisiafloresta
 #nísiafloresta
-#nisiaflorestarn
-"
+#nisiaflorestarn"
 rio grande do norte,pipa,praia do amor,"#praiadoamor
 #pipabeach
 #praiadapipa
 #piparn
 #pipa
-#pipabeach
-
-"
+#pipabeach"
 rio grande do norte,tibau do sul,praia de tibau do sul,"#praiadetibaudosul
 #tibaudosul
 #tibaudosulbeach
-#tibaudosullindo
-
-"
+#tibaudosullindo"
 rio grande do norte,extremoz,praia de genipabu,"#praiadegenipabu
 #praiadegenipabú
 #praiadegenipaburn
@@ -566,17 +557,13 @@ rio grande do norte,extremoz,praia de genipabu,"#praiadegenipabu
 #praiadegenipaburnbrasil
 #extremoz
 #extremozrn
-#extremóz
-
-"
+#extremóz"
 rio grande do norte,canguaretama ,barra do cunhaú,"#barradocunhaú
 #barradocunhau
 #barradocunhaurn
 #barradocunhaubeach
 #canguaretama
-#canguaretamarn
-
-"
+#canguaretamarn"
 rio grande do norte,atol das rocas,piscina falsa barreta,#atoldasrocas
 santa catarina,florianópolis,ilha do arvoredo,"#ilhadoarvoredo
 #ilhadoarvoredosc
@@ -585,9 +572,7 @@ santa catarina,florianópolis,ilha do arvoredo,"#ilhadoarvoredo
 #floripa
 #santacatarina
 #santacatarinaemfotos
-#floripando
-
-"
+#floripando"
 santa catarina,florianópolis,barra da lagoa,"#barradalagoa
 #floripa
 #floripamilgrau
@@ -599,31 +584,24 @@ santa catarina,florianópolis,barra da lagoa,"#barradalagoa
 #floripa
 #santacatarina
 #santacatarinaemfotos
-#floripando
-"
+#floripando"
 são paulo,ubatuba,praia do cedro,"#praiadocedro
 #praiadocedrodosul
 #ubatuba
 #ubatubabeach
-#litoralnortesp
-
-"
+#litoralnortesp"
 são paulo,ubatuba,ilha anchieta,"#ilhaanchieta
 #ilhaanchietaubatuba
 #ilhaanchietaubatubasp
 #ilhaanchietasp
 #ubatuba
 #ubatubabeach
-#litoralnortesp
-
-"
+#litoralnortesp"
 são paulo,ubatuba,praia da fortaleza,"#praiadafortaleza
 #praiadafortalezaubatuba
 #ubatuba
 #ubatubabeach
-#litoralnortesp
-
-"
+#litoralnortesp"
 são paulo,ilhabela,ilha das cabras,"#ilhadascabras
 #ilhadascabrasilhabela
 #ilhadascabrasnarwhal
@@ -631,55 +609,91 @@ são paulo,ilhabela,ilha das cabras,"#ilhadascabras
 #ilhabela
 #litoralnortesp
 #ilhabelasp
-#ilhabelabeach
-
-"
+#ilhabelabeach"
 são paulo,ilhabela,praia do portinho,"#praiadoportinho
 #praiadoportinhoilhabela
-#praiadoportinhodaarrábida
 #praiadoportinhodaarrabida
 #praiadoportinhodebaixo
 #praiadoportinhodoforno
 #ilhabela
 #litoralnortesp
 #ilhabelasp
-#ilhabelabeach
-
-"
+#ilhabelabeach"
 são paulo,santos,laje de santos,"#lajedesantos
 #santoscity
-#santossp
-
-"
+#santossp"
 são paulo,são sebastião,ilha de alcatrazes,"#arquipelagodealcatrazes
 #ilhadealcatrazes
 #arquipélagodealcatrazes
 #saosebastiao
 #litoralnortesp
 #sãosebastião
-"
+#acraalcatrazes"
 são paulo,itanhaém,ilha da queimada grande,"#ilhadaqueimadagrande
 #itanhaem
 #itanhaém
 #litoralpaulista
-#litoralsp
-"
+#litoralsp"
 sergipe,aracaju,praia de atalaia,"#praiadeatalaiaaracaju
 #aracaju
 #aracajusergipe
 #aracajú
 #aracajucomoeuvejo
-#sergipe
-"
-Foto da página ,De olho nos corais,serrapilheira,"#cienciacidada
+#sergipe 
+#mardesergipe"
+Foto da p�gina ,De olho nos corais,serrapilheira,"#cienciacidadã
 #ciencia
-#citizenscience 
-#pesquisa 
-#recifedecorais 
-#conservação 
-#ecologia 
-#vidamarinha 
-#biologiamarinha 
-#ufrn 
-#lecomufrn 
-#institutoserrapilheira"
+#ciência
+#citizenscience
+#pesquisa
+#recifedecorais
+#conservação
+#ecologia
+#projetocoralvivo
+#biologiamarinha
+#ufrn
+#lecomufrn
+#ocean
+#cienciacidadâ
+#uwphoto
+#ecologiarecifal
+#underwater
+#underwaterphotos
+#underwaterpic
+#wildlifephotography
+#educacaoambiental 
+#marinelife
+#research
+#snorkeling
+#vidamarinha
+#sustentabilidade
+#reefporn
+#nature
+#divulgaçãocientífica
+#conscientizacao
+#dbi
+#dbiufs45
+#dbiufs
+#ufs
+#corais
+#diving
+#coralwatch
+#scuba
+#biodiversity
+#freediving
+#marineecology
+#ciênciacidadâ
+#adventure
+#marinebiology
+#macrophotography
+#coralreefs
+#coral
+#reef
+#institutoserrapilheira
+#cienciaparatodos
+#icmbio
+#amazoniaazul
+#conservation
+#science
+#divulgaçãocientífica
+#branqueamentodoscorais"
