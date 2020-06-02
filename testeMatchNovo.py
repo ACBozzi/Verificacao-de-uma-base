@@ -144,7 +144,8 @@ def findLocation(local, indice, banco):
 		return 1
 	else:
 		return 0
-	
+
+#PROCURA OS ARQUIVOS DADO UM NOME PASSADO COMO PARÂMETRO	
 def procuraArqs(name,diretorio,pasta):
 
 	if os.path.isdir(diretorio): #VERIFICA SE O CAMINHO DADO EXISTE
@@ -194,6 +195,7 @@ if __name__ == '__main__':
 						shutil.move(file,PagDeOlho)
 						procuraArqs(name, home, PagDeOlho)
 					else:
+						total+=1
 						if indice != -1:	#!= pq não é da pág e encontrou um match	
 							name = file.split('_UTC')[0]
 							file_location = findFileLocation(name, home)
@@ -203,31 +205,27 @@ if __name__ == '__main__':
 									find = findMatchGeoloc(indice, banco, listageoloc)
 									if find != 0:	#SE FOR MAIOR QUE ZERO É PQ DEU MATCH
 										percentMatch += 1
-										total +=1
-										print("DEU")
+										print(file, "DEU MATCH")
 										#print('GEOLOC:',file_location, 'Conteúdo:',listageoloc)
-										#print('LEGENDA:',file )
 										#PrintCidadaeEstadoLocal(banco, indice, find)
 										#print('\n')
 									else:	#não deu match de geolocalização com legenda
 										percentN += 1
-										total += 1
-										print('NÃO DEU')
+										print(file, 'NÃO DEU MATCH')
 										#print('Não bateu legenda com geolocalização')
 										#print('GEOLOC:',file_location, 'Conteúdo:',listageoloc)
 										#print('LEGENDA:',file)
 										#PrintCidadaeEstadoLocal(banco, indice, 1)
 										#print('\n')
 								else:
-									print('VAZIO')
+									print(file, 'VAZIO')
 									vazia += 1
-									total += 1
 									#print('FILE',file, 'file_location', listageoloc)
 									#print('Geolocalização vazia')
 									#print('\n')
 							else:
+								print(file, "NAO TEM GEOLOC")
 								perceExiste +=1
-								total += 1
 								#print('SEM GEOL')
 								#print('Não existe a geolocalização')
 								#print('LEGENDA:',file, 'Legenda:', legendaTxt)
@@ -235,13 +233,13 @@ if __name__ == '__main__':
 								#print('\n')
 								#PrintCidadaeEstadoLocal(banco, indice, 1)
 						else: 
-							print('SABE DEUS')
+							print(file, 'SABE DEUS')
 							#print(file,':Não foi possível encontrar match')
 							procuraArqs(name, home,NaoIdentLoc)
 							name = file.split('_UTC')[0]
 							shutil.move(file, NaoIdentLoc)
 							
-
+#	SÓ CONTA AS LEGENDA
 	print("Total encontrado foi:", total)
 	print("Qtd de legendas que bateram com geolocalização foi:",percentMatch, (percentMatch/total),"%")
 	print("Qtd que não deu match entre geolocalização e legenda foi:", percentN, (percentN/total),'%')
