@@ -1,7 +1,7 @@
 import os, glob
 import time
 
-home = '/home/carol/Área de Trabalho/IC/#deolhonoscorais'
+home = '/home/carol/Área de Trabalho/IC/deolhonoscorais'
 
 
 arquivo = open("listaArquivos#.txt", "w")
