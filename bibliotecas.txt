@@ -1,8 +1,0 @@
-GEOPY:
-	O geopy facilita para os desenvolvedores de Python localizarem as coordenadas de endereços, cidades, países e pontos de referência em todo o mundo usando geocodificadores de terceiros e outras fontes de dados.
-
-PLOTLY:
-	Plotly é uma biblioteca de visualização de dados para Python, Javascript e R. Eles tem uma série de produtos, desde para criação de dashboards até clientes SQL. Plotly permite que você utilize seus gráficos em aplicações e, claro, Jupyter Notebooks. A quantidade de visualizações disponíveis, além da gigantesca capacidade de customização me faz querer dar um abraço quentinho em todo mundo que criou essa coisa linda.
-
-GEOCODER:
-	Cordenada para geolocalização
