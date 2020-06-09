@@ -64,11 +64,12 @@ if __name__ == '__main__':
 	home = '/home/carol/Área de Trabalho/IC/#deolhonoscorais'
 
 	#Cria o CSV que vai receber os dados do Json
-	csvfile = csv.writer(open("location.csv", "w"))
+	csvF = open("location.csv", 'w')
+	csvfile = csv.writer(csvF)
 	csvfile.writerow(["Foto","Latitude","Longitude","Local"])
 
 	banco = pd.read_csv("banco.csv")
-
+	fotos = []
 	#Percorrer a pasta e ler cada Json
 	if os.path.isdir(home): #VERIFICA SE O CAMINHO PASSADO EXISTE
 		os.chdir(home) #ABRE CASO EXISTA
@@ -76,12 +77,13 @@ if __name__ == '__main__':
 			if file.lower().endswith(('.xz')):				
 				dados = lzma.open(file) #abriu
 				jdados = json.load(dados) #lendo json É UM DICIONARIO/lista
-				if jdados['node']['location'] != None:	#TEMOS A GEOLOCALIZAÇÃO
+				if jdados['node']['location']:	#TEMOS A GEOLOCALIZAÇÃO
 					lat = jdados['node']['location']['lat']
 					lng = jdados['node']['location']['lng'] 
 					local = jdados['node']['location']['name']
 					fotos = find_Foto(file,home)
-					csvfile.writerow([fotos,lat,lng,local])
+					foto = ' '.join(map(str,fotos)).strip('[]')
+					csvfile.writerow([foto,lat,lng,local])
 				else:	#NÃO TEMOS A GEOLOCALIZAÇÃO PROCURAR NA LEGENDA DA FOTO
 					#for file in glob.glob('*_UTC.txt'): #CRIA A LISTA DOS ARQUIVOS DADO PARAMETRO 
 					#	if file.lower().endswith(('.txt')):
@@ -91,7 +93,8 @@ if __name__ == '__main__':
 					#			#alguma coisa
 					#		else:
 					#			
-					print(file)
+					#print(file)
 					fotos = find_Foto(file,home)
-					print(fotos)
-					print('não tem localização')
+					#print(fotos)
+					#print('não tem localização')
+
